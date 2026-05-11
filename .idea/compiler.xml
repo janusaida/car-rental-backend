@@ -9,14 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
         </processorPath>
-        <module name="car-rental-backend" />
+        <module name="Car-Rental-backend" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Car-Rental-backend" options="-parameters" />
       <module name="car-rental-backend" options="-parameters" />
     </option>
   </component>
